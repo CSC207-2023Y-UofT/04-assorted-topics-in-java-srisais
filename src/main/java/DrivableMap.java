@@ -45,6 +45,7 @@ class DrivableMap {
              this.drivable_map.put(
                 id, item
              );
+             addedToMap = true;
          }
 
          return addedToMap;
